@@ -37,6 +37,8 @@ class AulaItem extends HTMLElement {
 
         this.shadowRoot.innerHTML = /* html */`
         <style>
+            @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Nunito:wght@600;700;800;900&display=swap');
+
             /*
              * ╔══════════════════════════════════════════════════════════╗
              * ║  CSS CUSTOM PROPERTIES de <aula-item>                    ║
@@ -170,6 +172,8 @@ class AulasDirectorio extends HTMLElement {
     get #styles() {
         return /* css */`
         <style>
+            @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Nunito:wght@600;700;800;900&display=swap');
+
             /*
              * ╔══════════════════════════════════════════════════════════╗
              * ║  CSS CUSTOM PROPERTIES de <aulas-directorio>             ║

@@ -58,6 +58,8 @@ class CartelSede extends HTMLElement {
     get #styles() {
         return /* css */`
         <style>
+            @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Nunito:wght@600;700;800;900&display=swap');
+
             /*
              * ╔══════════════════════════════════════════════════════════╗
              * ║  CSS CUSTOM PROPERTIES  (variables)                      ║
